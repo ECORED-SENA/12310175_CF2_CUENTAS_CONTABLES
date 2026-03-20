@@ -65,7 +65,7 @@
                   h5 Figura 6.
                   span Registro
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/temas/img34.svg', alt='Las cuentas afectadas son dos: 1528 Equipo de computación y comunicación, que es una cuenta de activo,  que por aumentar se debita en 300.000; y por otra parte, la 1110 bancos, cuenta que es una cuenta del activo que, disminuye en 300.000, se acredita.' style="max-width: 500px")
+                  img(src='@/assets/curso/temas/img34.svg', alt='Las cuentas afectadas son dos: 1528 Equipo de computación y comunicación, que es una cuenta de activo,  que por aumentar se debita en $300.000; y por otra parte, la 1110 bancos, cuenta que es una cuenta del activo que, disminuye en $300.000, se acredita.' style="max-width: 500px")
               .col-xl-7.order-1.order-lg-2.mb-4.mb-lg-0
                 h4.txt--purpura.mb-4 Asiento simple
                 p.mb-3 Este registro se presenta cuando solo son afectadas dos cuentas: un débito y un crédito. 
@@ -79,7 +79,7 @@
                   h5 Figura 7.
                   span Registro
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/temas/img35.svg', alt='Las cuentas afectadas son tres: 1105 Caja, cuenta del activo, que por recibir 200.000 de contado aumenta en el débito; la 1305 Clientes, que también es del activo, aumenta 620.000r en el débito porque es el saldo a crédito de la venta; y la 4135 Comercio al por mayor y al por menor, que es una cuenta de los ingresos, aumenta en el crédito en 820.000, que es el valor total de la venta. ' style="max-width: 500px")
+                  img(src='@/assets/curso/temas/img35.svg', alt='Las cuentas afectadas son tres: 1105 Caja, cuenta del activo, que por recibir $200.000 de contado aumenta en el débito; la 1305 Clientes, que también es del activo, aumenta $620.000r en el débito porque es el saldo a crédito de la venta; y la 4135 Comercio al por mayor y al por menor, que es una cuenta de los ingresos, aumenta en el crédito en $820.000, que es el valor total de la venta. ' style="max-width: 500px")
               .col-xl-7.order-1.order-lg-2.mb-4.mb-lg-0
                 h4.txt--purpura.mb-4 Asiento compuesto
                 p.mb-3 Se genera cuando en el registro contable se afectan más de dos cuentas: puede ser una cuenta deudora y dos o más cuentas acreedoras, o dos o más cuentas deudoras y una acreedora.
@@ -105,18 +105,18 @@
                   tr
                     td.ajuste-border-tabla.texto-left 1105
                     td.ajuste-border-tabla.texto-left Caja
-                    td.ajuste-border-tabla.texto-left 200.000
+                    td.ajuste-border-tabla.texto-left $200.000
                     td -
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla.texto-left 1305
                     td.ajuste-border-tabla.texto-left Clientes
-                    td.ajuste-border-tabla.texto-left 620.000
+                    td.ajuste-border-tabla.texto-left $620.000
                     td -
                   tr
                     td.ajuste-border-tabla.texto-left 4135
                     td.ajuste-border-tabla.texto-left Comercio al por mayor y al por menor.
                     td.ajuste-border-tabla -
-                    td.texto-left 820.000
+                    td.texto-left $820.000
 
     <!------------------------------------------ SUBTEMA 3 ------------------------------------------>
     Separador
@@ -147,13 +147,13 @@
                       tr
                         td.ajuste-border-tabla.texto-left 5120
                         td.ajuste-border-tabla.texto-left Arrendamientos
-                        td.ajuste-border-tabla.texto-left 120.000
+                        td.ajuste-border-tabla.texto-left $120.000
                         td  -
                       tr.ajuste-color-tabla
                         td.ajuste-border-tabla.texto-left 1110
                         td.ajuste-border-tabla.texto-left Bancos
                         td.ajuste-border-tabla -
-                        td.texto-left 120.000
+                        td.texto-left $120.000
               p.mb-3 Como la gestión se realiza por medio de un banco, esta cobra intereses por sobregiro y debita inmediatamente de la cuenta corriente de la empresa $5.000. 
               .ajuste-cajaAcordion_1
                 .titulo-sexto.color-acento-contenido.mb-2
@@ -171,13 +171,13 @@
                       tr
                         td.ajuste-border-tabla.texto-left 5305
                         td.ajuste-border-tabla.texto-left Financieros
-                        td.ajuste-border-tabla.texto-left 5.000
+                        td.ajuste-border-tabla.texto-left $5.000
                         td -
                       tr.ajuste-color-tabla
                         td.ajuste-border-tabla.texto-left 1110
                         td.ajuste-border-tabla.texto-left Bancos
                         td.ajuste-border-tabla -
-                        td.texto-left 5.000
+                        td.texto-left $5.000
             .row(titulo="Gastos pagados por anticipado").ajuste-cajaAcordion
               p.mb-3 Una empresa gira un cheque por valor de $300.000 para pagar tres meses de arrendamiento adelantado.
               .ajuste-cajaAcordion_1
@@ -196,13 +196,13 @@
                       tr
                         td.ajuste-border-tabla.texto-left 1705
                         td.ajuste-border-tabla.texto-left Gastos pagados por anticipado
-                        td.ajuste-border-tabla.texto-left 300.000
+                        td.ajuste-border-tabla.texto-left $300.000
                         td  -
                       tr.ajuste-color-tabla
                         td.ajuste-border-tabla.texto-left 1110
                         td.ajuste-border-tabla -
                         td.ajuste-border-tabla -
-                        td 300.000
+                        td $300.000
             .row(titulo="Ingresos").ajuste-cajaAcordion
               p.mb-3 Una empresa obtiene honorarios por valor de $180.000 por asistencia técnica.
               .ajuste-cajaAcordion_1
@@ -221,13 +221,13 @@
                       tr
                         td.ajuste-border-tabla.texto-left 1105
                         td.ajuste-border-tabla.texto-left Caja
-                        td.ajuste-border-tabla.texto-left 180.000
+                        td.ajuste-border-tabla.texto-left $180.000
                         td  -
                       tr.ajuste-color-tabla
                         td.ajuste-border-tabla.texto-left 4230
                         td.ajuste-border-tabla.texto-left Honorario
                         td.ajuste-border-tabla -
-                        td 180.000
+                        td $180.000
             .row(titulo="Gastos causados por pagar").ajuste-cajaAcordion
               p.mb-3 Al finalizar el mes, una empresa debe los servicios generales públicos correspondientes a un mes por valor de $185.450.
               .ajuste-cajaAcordion_1
@@ -246,13 +246,13 @@
                       tr
                         td.ajuste-border-tabla.texto-left 5135
                         td.ajuste-border-tabla.texto-left Servicios
-                        td.ajuste-border-tabla.texto-left 185.450
+                        td.ajuste-border-tabla.texto-left $185.450
                         td -
                       tr.ajuste-color-tabla
                         td.ajuste-border-tabla.texto-left 2335
                         td.ajuste-border-tabla.texto-left Costos y gastos por pagar
                         td.ajuste-border-tabla -
-                        td.texto-left 185.450
+                        td.texto-left $185.450
             .row(titulo="Ingresos recibidos por anticipado").ajuste-cajaAcordion
               p.mb-3 Una empresa recibe $90.000 por concepto de intereses anticipados.
               .ajuste-cajaAcordion_1
@@ -271,13 +271,13 @@
                       tr
                         td.ajuste-border-tabla.texto-left 1105
                         td.ajuste-border-tabla.texto-left Caja
-                        td.ajuste-border-tabla.texto-left 90.000
+                        td.ajuste-border-tabla.texto-left $90.000
                         td -
                       tr.ajuste-color-tabla
                         td.ajuste-border-tabla.texto-left 2705
                         td.ajuste-border-tabla.texto-left Ingresos recibidos por anticipado
                         td.ajuste-border-tabla -
-                        td.texto-left 90.000
+                        td.texto-left $90.000
             .row(titulo="Comprobación de saldos").ajuste-cajaAcordion
               p.mb-3 Al terminar el registro de los asientos contables, se debe comprobar la aplicación de la partida doble; para esto se debe, en primer lugar, desarrollar el ejercicio en una sola cuenta T. Al final, se suman los débitos y créditos, los cuales deben dar sumas iguales.
               .ajuste-cajaAcordion_1
@@ -292,26 +292,26 @@
                         th.texto-left Haber
                     tbody
                       tr.ajuste-color-tabla
-                        td.ajuste-border-tabla.texto-left 120.000
-                        td.texto-left 120.000
+                        td.ajuste-border-tabla.texto-left $120.000
+                        td.texto-left $120.000
                       tr
-                        td.ajuste-border-tabla.texto-left 5.000
-                        td.texto-left 5.000
+                        td.ajuste-border-tabla.texto-left $5.000
+                        td.texto-left $5.000
                       tr.ajuste-color-tabla
-                        td.ajuste-border-tabla.texto-left 300.000
-                        td.texto-left 300.000
+                        td.ajuste-border-tabla.texto-left $300.000
+                        td.texto-left $300.000
                       tr
-                        td.ajuste-border-tabla.texto-left 180.000
-                        td.texto-left 180.000
+                        td.ajuste-border-tabla.texto-left $180.000
+                        td.texto-left $180.000
                       tr.ajuste-color-tabla
-                        td.ajuste-border-tabla.texto-left 185.450
-                        td.texto-left 185.450
+                        td.ajuste-border-tabla.texto-left $185.450
+                        td.texto-left $185.450
                       tr
-                        td.ajuste-border-tabla.texto-left 90.000
-                        td.texto-left 90.000
+                        td.ajuste-border-tabla.texto-left $90.000
+                        td.texto-left $90.000
                       tr.ajuste-color-tabla
-                        td.ajuste-border-tabla.texto-left #[b 880.450]
-                        td.texto-left #[b 880.450]
+                        td.ajuste-border-tabla.texto-left #[b $880.450]
+                        td.texto-left #[b $880.450]
     
     .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -390,22 +390,22 @@
                 tbody
                   tr
                     td.ajuste-border-tabla.texto-left Caja
-                    td.texto-left 800.000
+                    td.texto-left $800.000
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla.texto-left Bancos
-                    td.texto-left 500.000
+                    td.texto-left $500.000
                   tr
                     td.ajuste-border-tabla.texto-left Equipo oficina
-                    td.texto-left 2.000.000
+                    td.texto-left $2.000.000
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla.texto-left Terrenos
-                    td.texto-left 2.000.000
+                    td.texto-left $2.000.000
                   tr
                     td.ajuste-border-tabla.texto-left Total activos
-                    td.texto-left 5.300.000
+                    td.texto-left $5.300.000
 
         
-        p.mb-5 Al sumar los valores de cada una de las cuentas del activo, se tiene un total de #[b #[u 5.300.000]]. Para comprender el origen de los recursos externos, se procederá a agrupar las cuentas del pasivo, analizando cada una de las obligaciones y deudas que la entidad ha contraído para financiar su operación.
+        p.mb-5 Al sumar los valores de cada una de las cuentas del activo, se tiene un total de #[b #[u $5.300.000]]. Para comprender el origen de los recursos externos, se procederá a agrupar las cuentas del pasivo, analizando cada una de las obligaciones y deudas que la entidad ha contraído para financiar su operación.
 
         .row.justify-content-center.mb-5
           .col-xl-6
@@ -421,22 +421,22 @@
                 tbody
                   tr
                     td.ajuste-border-tabla.texto-left Bancos
-                    td.texto-left 500.000
+                    td.texto-left $500.000
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla.texto-left Nacionales
-                    td.texto-left 1.000.000
+                    td.texto-left $1.000.000
                   tr
                     td.ajuste-border-tabla.texto-left Total pasivos
-                    td.texto-left 1.500.000
+                    td.texto-left $1.500.000
     
-    p.mb-5 Al sumar los valores de cada una de las cuentas del pasivo, se tiene un total de #[b #[u 1.500.000]]. Al tener los valores del activo y el pasivo, ya se puede determinar el valor del patrimonio, el cual se puede calcular aplicando la fórmula de ecuación patrimonial así:
+    p.mb-5 Al sumar los valores de cada una de las cuentas del pasivo, se tiene un total de #[b #[u $1.500.000]]. Al tener los valores del activo y el pasivo, ya se puede determinar el valor del patrimonio, el cual se puede calcular aplicando la fórmula de ecuación patrimonial así:
 
     .row.align-items-center.justify-content-center.mb-5(data-aos="zoom-in")
       .col-xl-6
         .style___box_4.text-center
-          p.mb-0 #[b Patrimonio] = 5.300.000 (activo) - 1.500.000 (pasivo) = 3.800.000
+          p.mb-0 #[b Patrimonio] = $5.300.000 (activo) - $1.500.000 (pasivo) = $3.800.000
     
-    p.mb-5 Aplicando la fórmula de ecuación patrimonial, se puede calcular que el valor del patrimonio es de 3.800.000.
+    p.mb-5 Aplicando la fórmula de ecuación patrimonial, se puede calcular que el valor del patrimonio es de $3.800.000.
 
     .titles___box_tercer_nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
@@ -466,11 +466,11 @@
                 tbody
                   tr
                     td.ajuste-border-tabla.texto-left Bancos
-                    td.texto-left 3.000.000
+                    td.texto-left $3.000.000
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla.texto-left Nacionales
-                    td.texto-left 3.000.000
-            p.mb-0 Al sumar el valor de la cuenta bancos del activo, se tiene un total de 3.000.000. Respecto a los pasivos, no se realiza ningún registro porque el enunciado del ejercicio únicamente hace referencia a los 3.000.000 en bancos. Finalmente, se tiene el siguiente patrimonio:
+                    td.texto-left $3.000.000
+            p.mb-0 Al sumar el valor de la cuenta bancos del activo, se tiene un total de $3.000.000. Respecto a los pasivos, no se realiza ningún registro porque el enunciado del ejercicio únicamente hace referencia a los $3.000.000 en bancos. Finalmente, se tiene el siguiente patrimonio:
           .col-xl-auto(data-aos="fade-left")
             figure.d-none.d-xl-block
               img(src="@/assets/curso/temas/img37.svg", alt="" ).m-auto
@@ -489,23 +489,23 @@
                 tbody
                   tr
                     td.ajuste-border-tabla.texto-left Aportes sociales
-                    td.texto-left 3.000.000
+                    td.texto-left $3.000.000
                   tr.ajuste-color-tabla
                     td.ajuste-border-tabla.texto-left Total patrimonio
-                    td.texto-left 3.000.000
+                    td.texto-left $3.000.000
         
-        p.mb-5 Al aplicar la fórmula de la ecuación patrimonial, se tiene como resultado un valor de 3.000.000. 
+        p.mb-5 Al aplicar la fórmula de la ecuación patrimonial, se tiene como resultado un valor de $3.000.000. 
 
         .row.align-items-center.justify-content-center.mb-5(data-aos="zoom-in")
           .col-xl-6
             .style___box_4.text-center
-              p.mb-0 #[b Patrimonio] = 3.000.000 (activo) - 0 (pasivo) = 3.000.000
+              p.mb-0 #[b Patrimonio] = $3.000.000 (activo) - 0 (pasivo) = $3.000.000
         
         p.mb-5 Para comprender la dinámica de las modificaciones en la ecuación patrimonial, se estudiarán otros ejemplos en el siguiente video:  
 
         figure(data-aos="zoom-in")
           .video.mb-1
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/1ZlqAf3OEbA" title="Modificaciones en la ecuación patromonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/teGg-Cg_JLI" title="Modificaciones en la ecuación patrimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption(data-aos="zoom-in") #[b Video]: modificaciones en la ecuación patromonial.
 
 </template>

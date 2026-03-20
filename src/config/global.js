@@ -267,7 +267,7 @@ export default {
     },
     {
       referencia:
-        'Scoponi, L. M., Casarsa, F. A., & Schmidt, M. A. (2018). Teoría general del costo y contabilidad de gestión: revisión doctrinal. Centro De Estudios De Administración, 1(1), 68-88. Recuperado a partir de ',
+        'Scoponi, L. M., Casarsa, F. A., & Schmidt, M. A. (2018). Teoría general del costo y contabilidad de gestión: revisión doctrinal. Centro De Estudios De Administración, 1(1), 68-88.',
       link: '',
     },
   ],

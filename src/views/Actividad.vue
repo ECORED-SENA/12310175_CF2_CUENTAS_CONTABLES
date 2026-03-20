@@ -409,19 +409,29 @@ export default {
         {
           id: 13,
           texto:
-            'En el sistema de inventario permanente, cuando se realiza una compra de mercancía, el valor de la adquisición debe registrarse como un débito en la cuenta de "caja".',
+            'En el sistema de inventario permanente, cuando se compra mercancía, ¿cómo se registra?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Como gasto en ventas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Como débito en la cuenta de inventarios.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Como crédito en inventarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Como ingreso operativo.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -430,18 +440,28 @@ export default {
         {
           id: 14,
           texto:
-            'La ecuación patrimonial se define matemáticamente como: Activo = Pasivo - Patrimonio.',
+            '¿Cuál de las siguientes opciones describe correctamente el patrimonio de una empresa?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'El total de sus deudas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Los bienes que posee sin considerar obligaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El valor total de sus ingresos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La diferencia entre lo que tiene y lo que debe.',
               esCorrecta: true,
             },
           ],
@@ -451,18 +471,182 @@ export default {
         {
           id: 15,
           texto:
-            'Si una empresa tiene activos por $10.000.000 y deudas (pasivos) por $4.000.000, su patrimonio neto es de $6.000.000.',
+            'Si una empresa tiene activos por $8.000.000 y pasivos por $3.000.000, su patrimonio es:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: '$5.000.000.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: '$11.000.000.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '$24.000.000.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '$2.666.667.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: 'En contabilidad, el patrimonio representa:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Las deudas de la empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Los ingresos obtenidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La diferencia entre activos y pasivos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'El valor de las ventas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            'Cuando una empresa adquiere mercancía al contado, la cuenta de caja:',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Disminuye.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'No cambia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Se cancela.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No cambia.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            'En el asiento de gastos pagados por anticipado, ¿qué cuenta se debita?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Caja.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Honorarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Servicios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Gastos pagados por anticipado.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            'Cuando se registran ingresos recibidos por anticipado, ¿qué cuenta se acredita?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Caja.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Servicios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ingresos recibidos por anticipado.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Costos y gastos por pagar.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            'En el asiento de gastos causados por pagar, ¿qué cuenta se registra en el haber?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Costos y gastos por pagar.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Servicios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Caja.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ingresos recibidos por anticipado.',
               esCorrecta: false,
             },
           ],

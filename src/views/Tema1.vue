@@ -271,7 +271,7 @@
       .col
         h3 Costos de ventas
 
-    p.mb-5 Seguidamente, se conocerán las características de los costos de ventas, tales como: acumulación de recursos, componentes del costo, trazabilidad del proceso y cierre contable.
+    p.mb-5 Seguidamente, se conocerán las características de los costos de ventas, tales como acumulación de recursos, componentes del costo, trazabilidad del proceso y cierre contable.
 
     .fondo___slider.mb-5
       .px-5
@@ -375,7 +375,7 @@
                 .row.align-items-center
                   .col-xl-5.ajuste__movil_3
                     h4 Gastos
-                    p.mb-0 El movimiento de los gastos empieza y aumenta en el Debe, disminuye el saldo de esta cuenta y se cancela al final del período contable en el Haber.
+                    p.mb-0 El movimiento de los gastos empieza y aumenta en el debe, disminuye el saldo de esta cuenta y se cancela al final del período contable en el Haber.
                   .col-xl-6.mb-4.mb-md-0.ajuste__movil_3.espacio___movil_3
                     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                       h5 Figura 2.
@@ -387,7 +387,7 @@
                 .row.align-items-center
                   .col-xl-5.ajuste__movil_3
                     h4 Costos
-                    p.mb-0 Esta cuenta empieza y aumenta en el Debe, y se disminuye y cancela en el haber. Por lo general, no se acredita; su saldo es débito.
+                    p.mb-0 Esta cuenta empieza y aumenta en el debe, y se disminuye y cancela en el haber. Por lo general, no se acredita; su saldo es débito.
                   .col-xl-6.mb-4.mb-md-0.ajuste__movil_3.espacio___movil_3
                     .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                       h5 Figura 3.
