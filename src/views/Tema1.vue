@@ -21,7 +21,7 @@
             h4.mb-4 Pódcast
             TarjetaAudio.color-acento-contenido.mb-3(
               texto="Cuentas nominales o de resultado"
-              :audio="require('@/assets/componentes/audios/CF2_podcast_cuentas_contables.mp3')"
+              :audio="require('@/assets/componentes/audios/Podcast_CF2_12310175_CUENTAS_CONTABLES.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
       .col-xl-auto
